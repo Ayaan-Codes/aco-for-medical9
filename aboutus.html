@@ -1,1 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EB9 HealthCare</title>
+        <link rel="icon" 
+        type="image/png" 
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYzuJebZ474Tfta0N7D84BnWPo6acplZKRpQ&usqp=CAU">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+        <meta property="Title field"       content="EB9 Medical Company"/>
+        <meta property="description"       content=""/>
+        <meta name="theme-color"           content=""/>
+        <meta name="image"                 content="https://i.imgur.com/ZQPg8yZ.png"/>
+        <meta name="veiwport"              content= "width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script> function aboutUs() {window.location.href = "aboutus.html"}</script>
 
+
+        <script language="JavaScript">
+
+function disableCtrlKeyCombination(e)
+{
+//list all CTRL + key combinations you want to disable
+var forbiddenKeys = new Array('x', 'n', 't', 'x', 'w', 'j' , 'w', 'i', 'p',);
+var key;
+var isCtrl;
+if(window.event)
+{
+key = window.event.keyCode;     //IE
+if(window.event.ctrlKey)
+isCtrl = true;
+else
+isCtrl = false;
+}
+else
+{
+key = e.which;     //firefox
+if(e.ctrlKey)
+isCtrl = true;
+else
+isCtrl = false;
+}
+//if ctrl is pressed check if other key is in forbidenKeys array
+if(isCtrl)
+{
+for(i=0; i<forbiddenKeys.length; i++)
+{
+//case-insensitive comparation
+if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
+{
+alert('🔴 ACO WebModeration™ : ctrl + '+String.fromCharCode(key) +' has been disabled for security reasons.');
+return false;
+}
+}
+}
+return true;
+}
+</script>
+
+        
+        
+<!---------------------------STYLE AREA----------------------------->
+        
+<style>
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+
+    </head>
+    <body onkeypress="return disableCtrlKeyCombination(event);" onkeydown="return disableCtrlKeyCombination(event);" style="background-color:white;">
+
+      
+   <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#"><img src="acoweb.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">About Us<span class="sr-only">(current)</span></a></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="more.html">More...</a>
+       
+      </li>
+    </ul>
+    </div>
+    </nav>
+    </section>           
+
+
+     <section id="more-about">                                                                                      
+   <h1 style="text-align:center;"style="color:white";> <strong>About ACO</strong></h1>
+                                                                                          
+   <h5 style="color:white";>
+     We are ACO, also known as the Ayaan Company, we started way back in 2015... To be exact on (May 5th 2015). From that day we have served 
+     the world with our amazing loved services. From our movies and TV shows, to our tech services and games. All our services has served thousands
+     over the world. From the start we have kept cost low, but the product quality high. We have always been there to be part of the bigger world around
+     us and NOT to be a gready cash only company, we want our consumers to get the best and we will only work to it. Over the past few years we have had some ups and downs, some big 
+     and some small, but what ACO holds is something others don't. This is how fast we can cope up with major issues, despite covid-19 ACO is still growing, about 50k new
+     users PER MONTH. We have had our whole server hacked and yet we were able to get stuff running back in less than 24 hours. Our dedicated team can work through holidays and
+     even COVID-19. We still have everything working. <br> <br>
+     We take pride in saying our products are the best in the world, from our websites to HOME MADE movies, all of them are made on giving the best to the CONSUMER and not
+     the budget. Here at ACO we don't ever have budgets, we are growing faster than ever at this point and haveing a budget will slow that down.<br> <br>
+                                                                                          
+     COVID-19 <br> <br>
+     Due to the effects of COVID we have been forced to close all the in-person work, we had to cancel a pop up in Paris and Singapore this year too. But we as ACO would like
+     to promise that whatever we missed this year, will be made up in the next. Lets all be safe and stay home. Note that we still have things online like a virtual city, expo
+     , and live streams. Go to our updates website and you should be able to see all the updates there. Another thing to note is that OUR SUPPORT TEAM IS STILL WORKING! So 
+     so please contact us for any issues. <br> <br>
+     STAY SAFE 💖<br><br><br>
+       
+       <strong>Message from our CEO</strong><br>
+       I would like to that YOU, thank you soo much, for you being with us today... the world is going through a weird time right now... and we are aware. We will do everything that
+       sill remains in our control to help you as best as we can... As I always say <br> <br>
+       "An F grade is free, an A grade is acquired" Ayaan <br> <br>
+       You have turned to the right company to get you that A grade of service-<br>
+       Stay safe, happy, and posative!<br>
+       Ayaan
+      </h5>             
+      </section>
+      
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark">
+
+  <div style="background-color: #17d424;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">EB9 HealthCare Website</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+
+          
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">EB9</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>©Images <br> ©Names <br> ©Website <br> ©Code</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Website</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="index.html">Home</a>
+        </p>
+        <p>
+          <a href="aboutus.html">About Us</a>
+        </p>
+        <p>
+          <a href="portfolio.html">Products</a>
+        </p>
+        <p>
+          <a href="contact.html">Contact Us</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Links</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="https://ayaan-codes.github.io/aco.co/">Connect Website</a>
+        </p>
+        <p>
+          <a href="https://aco-support.crisp.help/en/">Support</a>
+        </p>
+        <p>
+          <a href="https://aco-support.crisp.help/en/">Questions</a>
+        </p>
+        <p>
+          <a href="https://aco-support.crisp.help/en/">More...</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+   
+        <p>
+          <i class="fas fa-home mr-3"></i>7/111C, Ettumanoor, Kottayam, Pin-686631</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i>eb9healthcare@gmail.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i>+91 9495412933 / 90617 00501</p>
+        <p>
+       
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">Website Developed by:
+    <a href="https://ayaan-codes.github.io/a-co/">A. CO. (Development Service)</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+    </body>                                                                         
+</html>
+    
